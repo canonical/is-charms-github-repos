@@ -39,6 +39,12 @@ repositories = [
     archived = true
   },
   {
+    id = "github-runner-manager",
+    required_status_checks = [
+      "unit-tests / Required Test Status Checks",
+    ]
+  },
+  {
     id                    = "github-runner-webhook-router",
     template_repo_enabled = true
   },
