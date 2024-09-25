@@ -141,5 +141,11 @@ repositories = [
       "Integration Test / Required Integration Test Status Checks",
       "Integration Test on Juju3 / Required Integration Test Status Checks",
     ]
+  },
+  {
+    id = "content-cache-backend-config-operator",
+    required_status_checks = [
+      "unit-tests / Required Test Status Checks",
+    ]
   }
 ]
