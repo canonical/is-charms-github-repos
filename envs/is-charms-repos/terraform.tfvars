@@ -122,13 +122,11 @@ repositories = [
   },
   {
     id                    = "wazuh-dashboard-operator",
-    template_repo_enabled = true,
-    archived              = true
+    template_repo_enabled = false,
   },
   {
     id                    = "wazuh-indexer-operator",
-    template_repo_enabled = true,
-    archived              = true
+    template_repo_enabled = false,
   },
   {
     id                    = "wazuh-server-operator",
