@@ -133,7 +133,6 @@ repositories = [
     id                    = "wazuh-indexer-operator",
     template_repo_enabled = false,
     required_status_checks = [
-      "Check libraries",
       "Integration test charm",
     ]
   },
@@ -144,7 +143,6 @@ repositories = [
   {
     id = "wordpress-k8s-operator",
     required_status_checks = [
-      "Check libraries",
       "Integration test charm",
     ]
   },
