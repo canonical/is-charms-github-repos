@@ -123,10 +123,19 @@ repositories = [
   {
     id                    = "wazuh-dashboard-operator",
     template_repo_enabled = false,
+    required_status_checks = [
+      "unit-tests / Required Test Status Checks",
+      "Integration Test / Required Integration Test Status Checks",
+      "Integration Test on Juju3 / Required Integration Test Status Checks",
+    ]
   },
   {
     id                    = "wazuh-indexer-operator",
     template_repo_enabled = false,
+    required_status_checks = [
+      "Check libraries",
+      "Integration test charm",
+    ]
   },
   {
     id                    = "wazuh-server-operator",
@@ -135,9 +144,8 @@ repositories = [
   {
     id = "wordpress-k8s-operator",
     required_status_checks = [
-      "unit-tests / Required Test Status Checks",
-      "Integration Test / Required Integration Test Status Checks",
-      "Integration Test on Juju3 / Required Integration Test Status Checks",
+      "Check libraries",
+      "Integration test charm",
     ]
   },
   {
