@@ -152,5 +152,9 @@ repositories = [
     required_status_checks = [
       "unit-tests / Required Test Status Checks",
     ]
+  },
+  {
+    id                     = "paas-charm",
+    required_status_checks = []
   }
 ]
