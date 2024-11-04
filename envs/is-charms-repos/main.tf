@@ -33,6 +33,7 @@ module "templated-repos" {
   source                          = "../../modules/templated-repo"
   admin_team                      = "is-devops-leadership"
   archived                        = each.value.archived
+  charmhub_token_secret           = data.vault_generic_secret.is-charms-repo.data["charmhub_token_secret"]
   github_actions_dashboard_secret = data.vault_generic_secret.is-charms-repo.data["github_actions_dashboard_secret"]
   jira_url_secret                 = data.vault_generic_secret.is-charms-repo.data["jira_url"]
   repo_access_token_secret        = data.vault_generic_secret.is-charms-repo.data["repo_access_token"]

@@ -147,7 +147,7 @@ repositories = [
     ]
   },
   {
-    id = "content-cache-backends-config-operator",
+    id                    = "content-cache-backends-config-operator",
     template_repo_enabled = true
     required_status_checks = [
       "unit-tests / Required Test Status Checks",
