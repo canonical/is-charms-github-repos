@@ -8,6 +8,12 @@ variable "archived" {
   type        = bool
 }
 
+variable "charmhub_token_secret" {
+  description = "Secret used by charmhub to publish resources."
+  type        = string
+  sensitive   = true
+}
+
 variable "github_actions_dashboard_secret" {
   description = "Secret used by the GitHub Actions Dashboard webhook."
   type        = string

@@ -3,6 +3,7 @@ variable "repositories" {
   type = set(object({
     id                              = string
     archived                        = optional(bool, false)
+    charmhub_token_secret           = optional(string)
     github_actions_dashboard_secret = optional(string)
     jira_url_secret                 = optional(string)
     repo_access_token_secret        = optional(string)
