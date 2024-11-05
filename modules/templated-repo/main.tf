@@ -158,7 +158,7 @@ resource "github_repository_webhook" "github-actions-dashboard-webhook" {
   events = ["workflow_run", "workflow_job"]
 }
 
-resource "charmhub_token_secret" "charmhub_token" {
+resource "github_actions_secret" "charmhub_token" {
   repository      = var.repo_name
   secret_name     = "CHARMHUB_TOKEN"
   plaintext_value = var.charmhub_token_secret
