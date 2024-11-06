@@ -12,6 +12,10 @@ terraform {
   }
 }
 
+provider "github" {
+  owner = "canonical"
+}
+
 provider "vault" {
   address = "https://vault.admin.canonical.com:8200"
   auth_login {
