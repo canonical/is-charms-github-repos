@@ -14,6 +14,7 @@ terraform {
 
 provider "github" {
   owner = "canonical"
+  app_auth {}
 }
 
 provider "vault" {
