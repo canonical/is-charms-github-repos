@@ -29,6 +29,7 @@ repositories = [
     id = "github-runner-operator",
     required_status_checks = [
       "unit-tests / Required Test Status Checks",
+      "unit-tests-github-runner-manager / Required Test Status Checks",
       "Integration test with juju 3.1 / Required Integration Test Status Checks",
       "Required E2E Test Status Checks"
     ]
