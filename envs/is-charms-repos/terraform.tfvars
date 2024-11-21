@@ -41,6 +41,7 @@ repositories = [
   },
   {
     id = "github-runner-manager",
+    archived = true
     required_status_checks = [
       "unit-tests / Required Test Status Checks",
     ]
