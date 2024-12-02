@@ -145,7 +145,8 @@ repositories = [
   {
     id = "wordpress-k8s-operator",
     required_status_checks = [
-      "Integration test charm",
+      "Integration Test / Required Integration Test Status Checks",
+      "unit-tests / Required Test Status Checks",
     ]
   },
   {
