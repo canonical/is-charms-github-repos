@@ -31,6 +31,8 @@ repositories = [
       "unit-tests / Required Test Status Checks",
       "unit-tests-github-runner-manager / Required Test Status Checks",
       "Integration test with juju 3.1 / Required Integration Test Status Checks",
+      "Integration test using private-endpoint / Required Integration Test Status Checks",
+      "openstack interface test using private-endpoint / Required Integration Test Status Checks",
       "Required E2E Test Status Checks"
     ]
   },
