@@ -110,6 +110,10 @@ repositories = [
     template_repo_enabled = true
   },
   {
+    id                    = "smtp-dkim-signing-operator",
+    template_repo_enabled = true
+  },
+  {
     id                    = "smtp-relay-operator",
     template_repo_enabled = true
   },
