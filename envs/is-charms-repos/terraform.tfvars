@@ -36,13 +36,21 @@ repositories = [
       "Required E2E Test Status Checks"
     ]
   },
-  { id = "github-runner-image-builder-operator" },
+  {
+    id = "github-runner-image-builder-operator",
+    required_status_checks = [
+      "unit-tests / Required Test Status Checks",
+      "unit-tests-app / Required Test Status Checks",
+      "integration-tests / Required Integration Test Status Checks",
+      "Required Integration Test For Application Status Checks",
+    ]
+  },
   {
     id       = "gunicorn-k8s-operator",
     archived = true
   },
   {
-    id = "github-runner-manager",
+    id       = "github-runner-manager",
     archived = true
     required_status_checks = [
       "unit-tests / Required Test Status Checks",
