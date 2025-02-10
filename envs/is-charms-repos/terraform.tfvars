@@ -40,7 +40,7 @@ repositories = [
     id = "github-runner-image-builder-operator",
     required_status_checks = [
       "unit-tests / Required Test Status Checks",
-      "unit-tests-app / Required Test Status Checks",
+      "unit-tests-for-app / Required Test Status Checks",
       "integration-tests / Required Integration Test Status Checks",
       "Required Integration Test For Application Status Checks",
     ]
