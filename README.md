@@ -1,4 +1,7 @@
-/!\ This repository is archived and has been replaced by https://github.com/canonical/platform-engineering-repos/ /!\
+This repository is **archived** and has been replaced by https://github.com/canonical/platform-engineering-repos/
+
+Changes to the team **charm template** should directly be done on https://github.com/canonical/platform-engineering-charm-template
+
 
 # GitHub repo templator
 
