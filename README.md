@@ -1,3 +1,5 @@
+/!\ This repository is archived and has been replaced by https://github.com/canonical/platform-engineering-repos/ /!\
+
 # GitHub repo templator
 
 A terraform set of environments and modules to set up an initial repository as a template repo and create repositories
